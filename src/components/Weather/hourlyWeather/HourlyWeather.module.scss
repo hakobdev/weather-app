@@ -1,0 +1,29 @@
+@use "../../styles/variables" as v;
+
+.days {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+
+  .btn {
+    width: 184px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: v.$font_filter;
+    border: none;
+    background-color: var(--current-day-background-default);
+    margin-right: 15px;
+    font-family: v.$font_family;
+    font-weight: v.$font_weight_3;
+    font-size: v.$font_size_small2;
+    color: var(--current-day-color-default);
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: var(--header-select-hover-default);
+  }
+  .days__div1 button:last-child {
+    margin-right: 0px;
+  }
+}

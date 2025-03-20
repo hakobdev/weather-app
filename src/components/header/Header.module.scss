@@ -1,0 +1,47 @@
+@use "../styles//importer" as v;
+
+.header__div {
+  width: 100%;
+  height: 65px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .header__div_div1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .logo {
+      width: 65px;
+      height: 65px;
+      background-image: url("./icons/logo.svg");
+      cursor: pointer;
+    }
+    .title {
+      width: 230px;
+      height: 30px;
+      font-family: v.$font_family;
+      color: v.$font_color_1;
+      font-weight: v.$font_weight_1;
+      text-transform: uppercase;
+      line-height: 100%;
+      margin-left: 20px;
+      letter-spacing: 0%;
+      font-size: v.$font_size_medium;
+    }
+  }
+  .header__div_div2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .mode__logo {
+      width: 35px;
+      height: 35px;
+      background-image: url("./icons/mode.svg");
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}

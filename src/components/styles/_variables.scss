@@ -1,0 +1,108 @@
+//FONT STYLE
+$font_family: "Montserrat";
+
+//COLOR
+$font_color_1: #4793ff;
+$font_color_2: #4f4f4f;
+$font_color_3: #ffffff;
+$font_color_4: #ffc227;
+$font_color_5: #939cb0;
+$font_color_6: #2e3035;
+
+//FONT WEIGHT
+$font_weight_1: 700;
+$font_weight_2: 500;
+$font_weight_3: 400;
+
+//FONT SIZE
+$font_size_small00: 13px;
+$font_size_small0: 14px;
+$font_size_small: 16px;
+$font_size_small2: 18px;
+$font_size_medium: 25px;
+$font_size_large: 40px;
+$font_size_icon: 20px;
+
+//FILTER
+$font_filter: (2px 5px 25px -3px rgba(180, 180, 180, 0.25));
+
+///////////THEME VARIABLES////////////
+
+//BODY BACKGROUND STYLES
+$body-background-dark: rgb(6, 0, 22);
+$body-background-light: #ffffff;
+
+//HEADER BACKGROUND STYLES
+$header-select-dark: #4f4f4f;
+$header-select-color-dark: #ffffff;
+
+$header-select-light: #4793ff33;
+$header-select-color-light: rgb(0, 0, 0);
+
+$header-select-hover-light: #2163c085;
+$header-select-hover-dark: #2e3035;
+
+//CURRENT DAY & INFO COMPONENT STYLES
+$current-day-background-dark: #4f4f4f;
+$current-day-color-dark: #ffffff;
+
+$current-day-background-light: #ffffff;
+$current-day-color-light: black;
+
+//WEEK CARD STYLES
+$week-card-main-background-dark: #4f4f4f;
+$week-card-background-dark: #2e3035;
+$week-card-color-dark: #ffffff;
+
+$week-card-main-background-light: white;
+$week-card-background-light: #3489ff33;
+$week-card-color-light: black;
+$week-card-hover-dark: #2e30358a;
+
+//----------------------------------------------------
+
+:root {
+  //BODY BACKGROUND STYLES
+  --body-background-dark: #{$body-background-dark};
+  --body-background-light: #{$body-background-light};
+  --body-background-default: #{$body-background-dark};
+
+  //HEADER BACKGROUND STYLES
+  --header-select-dark: #{$header-select-dark};
+  --header-select-color-dark: #{$header-select-color-dark};
+  --header-select-hover-dark: #{$header-select-hover-dark};
+
+  --header-select-light: #{$header-select-light};
+  --header-select-color-light: #{$header-select-color-light};
+  --header-select-hover-light: #{$header-select-hover-light};
+
+  --header-select-default: #{$header-select-dark};
+  --header-select-color-default: #{$header-select-color-dark};
+  --header-select-hover-default: #{$header-select-hover-dark};
+
+  //CURRENT DAY & INFO COMPONENT STYLES
+  --current-day-background-dark: #{$current-day-background-dark};
+  --current-day-color-dark: #{$current-day-color-dark};
+
+  --current-day-background-light: #{$current-day-background-light};
+  --current-day-color-light: #{$current-day-color-light};
+
+  --current-day-background-default: #{$current-day-background-dark};
+  --current-day-color-default: #{$current-day-color-dark};
+
+  //WEEK CARD STYLES
+  --week-card-main-background-dark: #{$week-card-main-background-dark};
+  --week-card-background-dark: #{$week-card-background-dark};
+  --week-card-color-dark: #{$week-card-color-dark};
+  --week-card-hover-dark: #{$week-card-hover-dark};
+
+  --week-card-main-background-light: #{$week-card-main-background-light};
+  --week-card-background-light: #{$week-card-background-light};
+  --week-card-color-light: #{$week-card-color-light};
+  --week-card-hover-light: #{$header-select-hover-light};
+
+  --week-card-main-background-default: #{$week-card-main-background-dark};
+  --week-card-background-default: #{$week-card-background-dark};
+  --week-card-color-default: #{$week-card-color-dark};
+  --week-card-hover-default: #{$week-card-hover-dark};
+}

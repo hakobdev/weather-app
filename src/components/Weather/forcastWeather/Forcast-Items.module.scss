@@ -1,0 +1,73 @@
+@use "../../styles/variables" as v;
+
+.week {
+  display: flex;
+  flex-direction: column;
+  width: 149px;
+  height: 200px;
+  background-color: var(--week-card-background-default);
+  margin: 20px 20px 20px 19px;
+  border-radius: 10px;
+  padding: 11px 11px;
+  cursor: pointer;
+  box-shadow: v.$font_filter;
+  transition: 0.3s;
+
+  .current__day {
+    font-family: v.$font_family;
+    color: var(--week-card-color-default);
+    font-size: v.$font_size_small2;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: v.$font_weight_2;
+    margin-bottom: 7px;
+  }
+
+  .date {
+    font-family: v.$font_family;
+    color: v.$font_color_5;
+    font-size: v.$font_size_small0;
+    font-weight: v.$font_weight_3;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+  }
+  .weather__image {
+    width: 48px;
+    height: 48px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 12px;
+  }
+
+  .weather__dagree1 {
+    font-family: v.$font_family;
+    font-size: v.$font_size_small2;
+    color: var(--week-card-color-default);
+    font-weight: v.$font_weight_2;
+    letter-spacing: 0%;
+    line-height: 100%;
+  }
+
+  .weather__dagree2 {
+    font-family: v.$font_family;
+    font-size: v.$font_size_small00;
+    color: v.$font_color_5;
+    font-weight: v.$font_weight_3;
+    letter-spacing: 0%;
+    line-height: 100%;
+    margin-bottom: 6px;
+  }
+  .weather__today {
+    font-family: v.$font_family;
+    font-size: v.$font_size_small00;
+    color: v.$font_color_5;
+    font-weight: v.$font_weight_3;
+    letter-spacing: 0%;
+    line-height: 100%;
+  }
+}
+.week:hover {
+  background-color: var(--week-card-hover-default);
+}

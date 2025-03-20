@@ -1,0 +1,31 @@
+.main__div_div1 {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+}
+
+.main__div_div2 {
+  width: 100%;
+  height: 282px;
+  margin-top: 50px;
+  margin-bottom: 153px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  @media (max-width: 1200px) {
+    height: auto;
+  }
+
+  @media (max-width: 800px) {
+    height: auto;
+  }
+}

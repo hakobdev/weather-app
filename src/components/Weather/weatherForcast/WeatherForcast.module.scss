@@ -1,0 +1,15 @@
+@use "../../styles/variables" as v;
+
+.weeks {
+  background-color: var(--week-card-main-background-default);
+  width: 100%;
+  height: 240px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  box-shadow: v.$font_filter;
+
+  @media (max-width: 1200px) {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
