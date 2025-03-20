@@ -1,4 +1,4 @@
-# My Project
+# WEATHER APP
 
 This is my awesome project built with Vite and React. 🎉
 
